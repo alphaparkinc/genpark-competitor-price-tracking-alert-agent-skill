@@ -1,0 +1,27 @@
+{
+  "name": "genpark-competitor-price-tracking-alert-agent-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - E-commerce competitor price monitoring and alert agent.",
+  "author": "genpark",
+  "category": "marketing",
+  "tags": [
+    "marketing",
+    "genpark-skill",
+    "ai-agent"
+  ],
+  "inputs": {
+    "product": {
+      "type": "str"
+    },
+    "competitor_url": {
+      "type": "str"
+    }
+  },
+  "outputs": {
+    "price_diff_pct": {
+      "type": "float"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
